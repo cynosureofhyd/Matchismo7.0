@@ -24,6 +24,7 @@
 		5F629BBF1852DE910046F48A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F629BBE1852DE910046F48A /* Card.m */; };
 		5F629BC21852DF740046F48A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F629BC11852DF740046F48A /* Deck.m */; };
 		5FA8E0D91853205E002BD344 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA8E0D81853205E002BD344 /* PlayingCard.m */; };
+		5FA8E0DC185324E5002BD344 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA8E0DB185324E5002BD344 /* PlayingCardDeck.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		5F629BC11852DF740046F48A /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
 		5FA8E0D71853205E002BD344 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
 		5FA8E0D81853205E002BD344 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		5FA8E0DA185324E5002BD344 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		5FA8E0DB185324E5002BD344 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 		5F629B7C1852DCA50046F48A = {
 			isa = PBXGroup;
 			children = (
+				5FA8E0DA185324E5002BD344 /* PlayingCardDeck.h */,
+				5FA8E0DB185324E5002BD344 /* PlayingCardDeck.m */,
 				5FA8E0D71853205E002BD344 /* PlayingCard.h */,
 				5FA8E0D81853205E002BD344 /* PlayingCard.m */,
 				5F629B8E1852DCA50046F48A /* Matchismo */,
@@ -268,6 +273,7 @@
 				5F629BC21852DF740046F48A /* Deck.m in Sources */,
 				5F629B9F1852DCA50046F48A /* ViewController.m in Sources */,
 				5F629B991852DCA50046F48A /* AppDelegate.m in Sources */,
+				5FA8E0DC185324E5002BD344 /* PlayingCardDeck.m in Sources */,
 				5F629B951852DCA50046F48A /* main.m in Sources */,
 				5F629BBF1852DE910046F48A /* Card.m in Sources */,
 			);
