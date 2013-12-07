@@ -21,6 +21,9 @@
 		5F629BAA1852DCA50046F48A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F629B8C1852DCA50046F48A /* UIKit.framework */; };
 		5F629BB21852DCA50046F48A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F629BB01852DCA50046F48A /* InfoPlist.strings */; };
 		5F629BB41852DCA50046F48A /* MatchismoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F629BB31852DCA50046F48A /* MatchismoTests.m */; };
+		5F629BBF1852DE910046F48A /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F629BBE1852DE910046F48A /* Card.m */; };
+		5F629BC21852DF740046F48A /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F629BC11852DF740046F48A /* Deck.m */; };
+		5FA8E0D91853205E002BD344 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA8E0D81853205E002BD344 /* PlayingCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		5F629BAF1852DCA50046F48A /* MatchismoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MatchismoTests-Info.plist"; sourceTree = "<group>"; };
 		5F629BB11852DCA50046F48A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F629BB31852DCA50046F48A /* MatchismoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchismoTests.m; sourceTree = "<group>"; };
+		5F629BBD1852DE910046F48A /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = Model/Card.h; sourceTree = "<group>"; };
+		5F629BBE1852DE910046F48A /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = Model/Card.m; sourceTree = "<group>"; };
+		5F629BC01852DF740046F48A /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deck.h; path = Model/Deck.h; sourceTree = "<group>"; };
+		5F629BC11852DF740046F48A /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Deck.m; path = Model/Deck.m; sourceTree = "<group>"; };
+		5FA8E0D71853205E002BD344 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		5FA8E0D81853205E002BD344 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,8 @@
 		5F629B7C1852DCA50046F48A = {
 			isa = PBXGroup;
 			children = (
+				5FA8E0D71853205E002BD344 /* PlayingCard.h */,
+				5FA8E0D81853205E002BD344 /* PlayingCard.m */,
 				5F629B8E1852DCA50046F48A /* Matchismo */,
 				5F629BAD1852DCA50046F48A /* MatchismoTests */,
 				5F629B871852DCA50046F48A /* Frameworks */,
@@ -115,6 +126,10 @@
 				5F629B971852DCA50046F48A /* AppDelegate.h */,
 				5F629B981852DCA50046F48A /* AppDelegate.m */,
 				5F629B9A1852DCA50046F48A /* Main.storyboard */,
+				5F629BBD1852DE910046F48A /* Card.h */,
+				5F629BC01852DF740046F48A /* Deck.h */,
+				5F629BC11852DF740046F48A /* Deck.m */,
+				5F629BBE1852DE910046F48A /* Card.m */,
 				5F629B9D1852DCA50046F48A /* ViewController.h */,
 				5F629B9E1852DCA50046F48A /* ViewController.m */,
 				5F629BA01852DCA50046F48A /* Images.xcassets */,
@@ -249,9 +264,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FA8E0D91853205E002BD344 /* PlayingCard.m in Sources */,
+				5F629BC21852DF740046F48A /* Deck.m in Sources */,
 				5F629B9F1852DCA50046F48A /* ViewController.m in Sources */,
 				5F629B991852DCA50046F48A /* AppDelegate.m in Sources */,
 				5F629B951852DCA50046F48A /* main.m in Sources */,
+				5F629BBF1852DE910046F48A /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +478,7 @@
 				5F629BB91852DCA50046F48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F629BBA1852DCA50046F48A /* Build configuration list for PBXNativeTarget "MatchismoTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +487,7 @@
 				5F629BBC1852DCA50046F48A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
